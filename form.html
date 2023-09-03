@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <title>REGiSTRATION</title>
+  </head>
+  <body class="zzzz">
+    <header class="header">
+      <a href="#" class="logo"> <i class="fa fa-hourglass-half"></i> EduSprint </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+
+        <a href="Quizzes.html" target="_blank">Quizzes</a>
+        <a href="FlashCards.html" target="_blank">FlashCards</a>
+        <a href="Discussions.html" target="_blank">Discussions</a>
+        <a href="Resources.html" target="_blank">Resources</a>
+        <a href="hackathonandcontests.html" target="_blank">Hackathons and contests</a>
+        <a href="Form.html" target="_blank">Register</a>
+        
+        
+        <div class="dropdown">
+          <button class="dropbtn">More Links
+            <i class="fas fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="mentors.html" target="_blank">Mentors</a>
+            <a href="review.html" target="_blank">Review</a>
+            <a href="Help.html" target="_blank">Help</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    
+    <div class="FORM-BOX">
+      <h2>Register Now</h2>
+      <div class="inputBox">
+        <label
+          >First Name:<input
+            type="text"
+            name="fname"
+            placeholder="First name"
+            required
+        /></label>
+        <label
+          >Last Name:<input
+            type="text"
+            name="lname"
+            placeholder="Last name"
+            required
+        /></label>
+      </div>
+
+      <div class="inputBox">
+        <label
+          >Email:<input
+            type="email"
+            name="mail"
+            pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+            placeholder="email-id"
+            required
+        /></label>
+      </div>
+
+      <div>
+        <label
+          >Password:<input
+            type="password"
+            name="pass"
+            pattern=".{10,}"
+            placeholder="More than 10 Characters"
+            required
+        /></label>
+      </div>
+      <h4>Select Gender:</h4>
+      <div class="inputBox">
+        <label
+          >Male:<input
+            id="male"
+            type="radio"
+            name="gender"
+            value="male"
+            required
+        /></label>
+      </div>
+      <div>
+        <label
+          >Female:<input
+            id="female"
+            type="radio"
+            name="gender"
+            value="female"
+            required
+        /></label>
+      </div>
+      <div>
+        <label
+          >Other:<input
+            id="other"
+            type="radio"
+            name="gender"
+            value="other"
+            required
+        /></label>
+      </div>
+
+      <div class="inputBox">
+        <label
+          >Contact no. :<input
+            type="text"
+            name="pass"
+            pattern=".{10,}"
+            placeholder="mobile no."
+            required
+        /></label>
+      </div>
+      <div class="inputBox">
+        <label>Date Of Birth:<input type="date" name="dob" required /></label>
+      </div>
+      <div class="inputBox">
+        <label
+          >Institution:<input
+            type="text"
+            name="iname"
+            placeholder="Institute name"
+            required
+        /></label>
+      </div>
+        
+      <div class="inputBox">
+        <label
+          >Your Course:<input
+            type="text"
+            name="Course"
+            placeholder="Course Name"
+            required
+        /></label>
+      </div>
+      <div class="inputbox">
+        <h4></h4>
+        <input type="checkbox" name="agree" required /><span
+          class="slider round"
+        ></span>
+        <label>I Agree To Terms And Conditions: ></label>
+      </div>
+
+      <div class="inputBox">
+        <input type="button" class="registerbtn" value="Submit" />
+      </div>
+    </div>
+  </body>
+</html>
