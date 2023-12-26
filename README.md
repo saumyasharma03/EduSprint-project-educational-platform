@@ -24,8 +24,12 @@ Quizzes:
 ![image](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/7fe3d881-c8a9-4c74-85a3-a21d9f18ec72)
 ![image](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/dbc4f181-267f-46cf-8543-722e37ba2b42)
 
+Backend with PHP and MySQL:
+![php backend](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/d2f7fd23-2199-410a-9ee1-72f57c9ca17a)
+
 FlashCards:
 ![image](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/3cf44e2c-11ba-4493-b8aa-ed593e0dc446)
+
 
 Discussions:
 ![image](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/f082e287-e72e-4c21-a882-ad3970e5143c)
@@ -47,6 +51,7 @@ Mentors:
 
 Review:
 ![image](https://github.com/saumyasharma03/EduSprint-project-educational-platform/assets/143929552/bfd58a26-260e-49e1-ba3f-b5b775bb7d67)
+
 
 
 Thank you for choosing EduSprint as your educational platform, we're thrilled to have you with us.
